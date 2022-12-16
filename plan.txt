@@ -1,0 +1,17 @@
+Project: Deploy Facial Emotion Recognition Model to streamlit
+
+# Input data - image from web cam
+### preprocessing
+1. detect the face from the input image
+2. resize the image to the model's required input size
+
+
+# Model -  VGG16 model to classify face emotion recognition
+## preprocessing
+1. host the model on streamlit
+* use the json method to load the model and weights
+    advantages and disadvantages of this method
+* Use another method
+    advantages and disadvantages of this method
+2. make the model capable of predicting one image at a time
+3. return the emotions and their probability scores
